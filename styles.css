@@ -1,0 +1,62 @@
+/* Styling Headers */
+h1 {
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+}
+
+h2 {
+  color: #555;
+  font-size: 24px;
+}
+
+/* Styling Text */
+p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Button Styling */
+.button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* Simple Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animated-text {
+  animation: fadeIn 1.5s ease-out;
+}
+
+/* Example of Usage */
+/* You can use the class "animated-text" to apply the fadeIn animation to an element */
+
+/* Placeholder Text */
+h1:after {
+  content: "Your Main Heading";
+}
+
+h2:after {
+  content: "Your Subtitle";
+}
+
+p:after {
+  content: "Your main content goes here.";
+}
+
+.button:after {
+  content: "Click me";
+}
